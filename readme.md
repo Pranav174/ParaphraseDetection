@@ -16,7 +16,10 @@ Given two sentences, the task is to classify if the the sentences are paraphrase
 ![Bert Model](model_images/BiMPM.png "BERT")
 
 Details:
-+ Four Distinct matching mechanism
++ Uses pretrained Glove embeddings (6B)
++ Bidirectional LSTM to encode the sentences
++ Three Distinct multi-perspective matching mechanisms to measure the relations across sentences
++ Final LSTM to generate fixed-size vector and a feed-forward network to predict the output 
 
 Related Files:
 + `1_BiMPM-MSRP.ipynb`
@@ -45,7 +48,7 @@ Related Files:
 ## Results
 No  | Models            | Validation Accuracy on QQP | Validation Accuracy on MSRP 
 --- | -----             | :-------------------:| :-----:|
-| 1 |  Multi-Perspective Matching  |  | 
+| 1 |  BiMPM  | 85.28 %  | 72.52 %
 | 2 |  Multiway Attention  |  | 
 | 3 |  Bert Finetuning  | 90.10 % | 84.12 %
 
