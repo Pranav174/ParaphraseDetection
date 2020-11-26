@@ -12,13 +12,15 @@ Given two sentences, the task is to classify if the the sentences are paraphrase
 
 ## Models Implemented
 
-### 1. Multi-Perspective Matching
+### 1. Bidirectional Multi-Perspective Matching (BiMPM)
+![Bert Model](model_images/BiMPM.png "BERT")
+
 Details:
 + Four Distinct matching mechanism
 
 Related Files:
-+ `1_Multi-Perspective_Matching-MSRP.ipynb`
-+ `1_Multi-Perspective_Matching-QQP.ipynb`
++ `1_BiMPM-MSRP.ipynb`
++ `1_BiMPM-QQP.ipynb`
 
 
 ### 2. Multiway Attention
