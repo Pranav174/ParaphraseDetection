@@ -27,7 +27,7 @@ Details:
 ### 2. Multiway Attention
 Details: 
 + GRU for contextual representatoins.
-+ Four attention mechanism to get matching vectors representatoin from the other sentence.
++ Four attention mechanism to get matching vectors representation from the other sentence.
 + Further aggregated using GRU and attention applied based on inputs to make the final predictions. 
 
 
