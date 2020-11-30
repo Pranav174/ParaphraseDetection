@@ -12,6 +12,8 @@ Given two sentences, the task is to classify if the the sentences are paraphrase
 
 ## Models Implemented
 
+[Saved Model Checkpoints](https://drive.google.com/drive/folders/1yMqTg9Er4VmvV0BCK1bSAPcgZCdx3Oqp?usp=sharing)
+
 ### 1. Bidirectional Multi-Perspective Matching (BiMPM)
 ![Bert Model](model_images/BiMPM.png "BERT")
 
