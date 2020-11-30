@@ -49,6 +49,12 @@ No  | Models            | Validation Accuracy on QQP | Validation Accuracy on MS
 ## Report
 `Project_Report.pdf`
 
+## Additional Links
+
+[Project Presentation](https://docs.google.com/presentation/d/1J-1iSfrvD7bW08aHHIKZy5-PgDgNDDi4-TbQDfKia8I/edit?usp=sharing)
+
+[Repository Link](https://github.com/Pranav174/ParaphraseDetection)
+
 ## References 
 + “Fine-Tuning a BERT Model  :   TensorFlow Core.” TensorFlow, www.tensorflow.org/official_models/fine_tuning_bert. 
 + Devlin, Jacob, et al. "Bert: Pre-training of deep bidirectional transformers for language understanding." arXiv preprint arXiv:1810.04805 (2018).
