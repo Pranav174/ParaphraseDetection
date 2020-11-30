@@ -23,18 +23,11 @@ Details:
 + Three Distinct multi-perspective matching mechanisms to measure the relations across sentences
 + Final LSTM to generate fixed-size vector and a feed-forward network to predict the output 
 
-Related Files:
-+ `1_BiMPM-MSRP.ipynb`
-+ `1_BiMPM-QQP.ipynb`
-
 
 ### 2. Multiway Attention
 Details:
 
 
-Related Files:
-+ `2_Multiway_Attention-MSRP.ipynb`
-+ `2_Multiway_Attention-QQP.ipynb`
 
 ### 3. Finetune BERT-Base 
 ![Bert Model](model_images/Bert_model.png "BERT")
@@ -42,10 +35,6 @@ Related Files:
 Details:
 + Fine-tuned Bert Base Model (12 layers of stacked transformers with 768 hidden dimention) with a binary classification dense layer on top.
 + Original Pretrained Model: [bert_en_uncased_L-12_H-768_A-12_3](https://tfhub.dev/tensorflow/bert_en_uncased_L-12_H-768_A-12/2)
-
-Related Files:
-+ `3_Finetune_BERT-MSRP.ipynb`
-+ `3_Finetune_BERT-QQP.ipynb`
 
 ## Results
 No  | Models            | Validation Accuracy on QQP | Validation Accuracy on MSRP 
