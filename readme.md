@@ -25,7 +25,10 @@ Details:
 
 
 ### 2. Multiway Attention
-Details:
+Details: 
++ GRU for contextual representatoins.
++ Four attention mechanism to get matching vectors representatoin from the other sentence.
++ Further aggregated using GRU and attention applied based on inputs to make the final predictions. 
 
 
 
@@ -40,7 +43,7 @@ Details:
 No  | Models            | Validation Accuracy on QQP | Validation Accuracy on MSRP 
 --- | -----             | :-------------------:| :-----:|
 | 1 |  BiMPM  | 85.28 %  | 72.52 %
-| 2 |  Multiway Attention  |  | 
+| 2 |  Multiway Attention  | 83.47 %  |  72.56 %
 | 3 |  Bert Finetuning  | 90.10 % | 84.12 %
 
 ## Report
